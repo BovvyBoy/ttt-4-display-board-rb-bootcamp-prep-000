@@ -172,7 +172,7 @@ describe "#display_board in 'lib/display_board.rb" do
       # expect(rows[4]).to eq("   |   |   ")
 
       # *** Comment the line below by adding a # at the line start ***
-      expect(true).to be(true)
+      # expect(true).to be(true)
     end
 
     it 'prints an entire board full of Os' do
@@ -184,7 +184,18 @@ describe "#display_board in 'lib/display_board.rb" do
       # example's situation.
 
       # *** Comment the line below by adding a # at the line start ***
-      expect(true).to be(true)
+      #expect(true).to be(true)
     end
   end
 end
+def display_board(X,O)
+  expect(rows[0]).to eq("   |   |   ")
+  expect(rows[1]).to eq("-----------")
+  expect(rows[2]).to eq("   |   |   ")
+  expect(rows[3]).to eq("-----------")
+  expect(rows[4]).to eq("   |   |   ")
+end
+
+board = [" "," "," "," "," ","X"," "," "," "]
+display_board(board)
+
