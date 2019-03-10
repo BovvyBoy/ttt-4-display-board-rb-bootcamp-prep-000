@@ -188,7 +188,7 @@ describe "#display_board in 'lib/display_board.rb" do
     end
   end
 end
-def display_board(X,O)
+def display_board(board)
   expect(rows[0]).to eq("   |   |   ")
   expect(rows[1]).to eq("-----------")
   expect(rows[2]).to eq("   |   |   ")
@@ -197,5 +197,5 @@ def display_board(X,O)
 end
 
 board = [" "," "," "," "," ","X"," "," "," "]
-display_board(board)
+
 
