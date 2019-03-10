@@ -196,6 +196,6 @@ def display_board(board)
   puts " #{board[6]} | #{board[1]} | #{board[1]} "
 end
 
-board = [" "," "," "," "," ","X"," "," "," "]
+board = [" "," "," "," "," "," "," "," "," "]
 
 
