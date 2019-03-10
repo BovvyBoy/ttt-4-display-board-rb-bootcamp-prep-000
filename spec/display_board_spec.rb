@@ -1,3 +1,4 @@
+=begin
 require_relative"../lib/display_board.rb"
 
 describe "#display_board in 'lib/display_board.rb" do
@@ -188,6 +189,9 @@ describe "#display_board in 'lib/display_board.rb" do
     end
   end
 end
+
+=end
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
